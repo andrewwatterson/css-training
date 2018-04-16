@@ -32,6 +32,26 @@ $salmonRed: #F65F70;
 $carnationOrange: #FF7F00;
 $sherbetOrange: #FA9C3E;
 
+$blueStd: #26C6DA;
+$blueMed: #009EB3;
+$blueDark: #006573;
+
+$orangeStd: #F28F0C;
+$orangeMed: #CC780A;
+$orangeDark: #995A07;
+
+$greenStd: #00C853;
+$greenMed: #00913C;
+$greenDark: #005C26;
+
+$pinkStd: #EC407A;
+$pinkMed: #BF2F5F;
+$pinkDark: #8C2346;
+
+$indigoStd: #A15CE6;
+$indigoMed: #864DBF;
+$indigoDark: #6B3D99;
+
 $standardShadow: 0px 2px 4px 0px rgba(black, 0.5);
 
 body {
@@ -39,6 +59,10 @@ body {
   margin: 0;
   padding: 0;
   background-color: $backgroundColor;
+}
+
+img {
+  height: 48px;
 }
 
 .header {
