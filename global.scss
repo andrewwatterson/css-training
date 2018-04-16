@@ -1,0 +1,57 @@
+// standard
+$black: #000000;
+$white: #FFFFFF;
+$matted: rgba($white, .5);
+
+// canonical color names
+$gray0A: #0A0B0D;
+$gray1F: #1F2226;
+$gray29: #292D33;
+$gray2F: #2F343A;
+$gray39: #393F47;
+$gray47: #474F59;
+$gray52: #525A66;
+$gray66: #66717F;
+$gray85: #8593A6;
+$grayB4: #B4BECC;
+$grayF2: #F2F7FC;
+
+// semantic color names
+$textColor: $grayF2;
+$mutedColor: $gray85;
+$backgroundColor: $gray2F;
+$contrastColor: $gray29;
+
+// ui accent colors
+$cadmiumYellow: #FFD500;
+$mustardYellow: #CCAC0A;
+
+$falloutRed: #E3384C;
+$salmonRed: #F65F70;
+
+$carnationOrange: #FF7F00;
+$sherbetOrange: #FA9C3E;
+
+$standardShadow: 0px 2px 4px 0px rgba(black, 0.5);
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: $backgroundColor;
+}
+
+.header {
+  height: 80px;
+  background-color: #96d4ec;
+  box-shadow: $standardShadow;
+}
+
+.footer {
+  border: 1px solid $gray85;
+  border-radius: 4px;
+  text-align: center;
+  padding: 4px;
+  margin: 16px;
+  color: $gray85;
+}
